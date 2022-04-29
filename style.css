@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 **::after,
 *::before {
     box-sizing: border-box;
@@ -110,6 +111,16 @@ span:hover {
 
 .hide {
     display: none;
+}
+
+footer {
+    /* font-family: "Dancing Script", cursive; */
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+}
+
+a {
+    color: #000;
 }
 
 @keyframes pop {
