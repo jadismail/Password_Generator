@@ -39,6 +39,6 @@ function copyPassword() {
         alertBox.classList.remove('hide');
         setTimeout(() => {
             alertBox.classList.add('hide')
-        }, 2000);
+        }, 4000);
     }
 }
