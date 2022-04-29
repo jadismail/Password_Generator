@@ -30,13 +30,15 @@ function createPassword() {
 }
 
 function copyPassword() {
-    inputElement.select();
-    // document.execCommand('copy') // another way to copy the input
-    navigator.clipboard.writeText(inputElement.value);
+    if (inputElement.value) {
+        inputElement.select();
+        // document.execCommand('copy') // another way to copy the input
+        navigator.clipboard.writeText(inputElement.value);
 
-    alertBox.innerHTML = inputElement.value + ' Copied!';
-    alertBox.classList.remove('hide');
-    setTimeout(() => {
-        alertBox.classList.add('hide')
-    }, 2000);
+        alertBox.innerHTML = inputElement.value + ' Copied!';
+        alertBox.classList.remove('hide');
+        setTimeout(() => {
+            alertBox.classList.add('hide')
+        }, 2000);
+    }
 }
