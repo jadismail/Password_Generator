@@ -102,8 +102,6 @@ span:hover {
     display: none;
 }
 
-
-/* 
 @media screen and (min-width: 768px) {
     .container {
         width: 500px;
@@ -117,5 +115,6 @@ span:hover {
     }
     .btn {
         width: 250px;
+        font-size: 2rem;
     }
-} */
+}
