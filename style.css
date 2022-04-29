@@ -19,12 +19,13 @@ body {
     align-items: center;
     justify-content: center;
     height: 98vh;
+    gap: 4rem;
 }
 
 .flexbox {
     align-items: center;
     display: flex;
-    height: 80vh;
+    height: 65vh;
     justify-content: center;
     width: 100%;
 }
@@ -113,7 +114,7 @@ span:hover {
 
 @keyframes pop {
     0% {
-        transform: scale(1);
+        transform: scale(0);
     }
     25% {
         transform: scale(1.5);
